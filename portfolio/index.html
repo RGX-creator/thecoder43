@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antariskh Bhusal | Full Stack Developer</title>
+    <meta name="description" content="Portfolio of Antariskh Bhusal, a passionate Full Stack Developer and Programmer.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">AB.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact" class="btn-contact">Contact Me</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <span class="greeting">Hello, I'm</span>
+            <h1 class="name">Antariskh Bhusal <span
+                    style="font-size: 1.5rem; color: var(--primary-color); vertical-align: middle;">(@thecoder43)</span>
+            </h1>
+            <h2 class="title">I am a <span class="highlight" id="typing-text"></span></h2>
+            <p class="description">
+                Building digital experiences with code and creativity.
+                Passionate about solving complex problems and creating intuitive user interfaces.
+            </p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary">View Work</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="code-block">
+                <div class="code-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <pre><code>
+<span class="keyword">const</span> <span class="variable">developer</span> = {
+    <span class="property">name</span>: <span class="string">"Antariskh"</span>,
+    <span class="property">skills</span>: [<span class="string">"Code"</span>, <span class="string">"Design"</span>, <span class="string">"Innovate"</span>],
+    <span class="property">hardWorker</span>: <span class="boolean">true</span>,
+    <span class="function">solveProblem</span>: <span class="keyword">function</span>() {
+        <span class="keyword">return</span> <span class="string">"Solution Found"</span>;
+    }
+};
+                </code></pre>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am a dedicated programmer with a passion for turning ideas into reality through code.
+                        With a strong foundation in computer science principles and a keen eye for design,
+                        I strive to build applications that are not only functional but also beautiful and
+                        user-friendly.
+                    </p>
+                    <p>
+                        My journey in tech has been driven by curiosity and a relentless desire to learn.
+                        Whether it's front-end magic or back-end logic, I love every aspect of the development process.
+                        Also, a shoutout to <strong>Aayan Bhusal</strong> for being part of this journey.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>Frontend</h3>
+                    <p>HTML, CSS, JavaScript, React</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-server"></i>
+                    <h3>Backend</h3>
+                    <p>Node.js, Python, SQL</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Tools</h3>
+                    <p>Git, VS Code, Docker</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Design</h3>
+                    <p>Responsive UI, Figma</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="project-grid">
+                <!-- Placeholder Projects -->
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-featured online store with cart and payment integration.</p>
+                        <div class="tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Task Management App</h3>
+                        <p>A productivity tool to organize your daily tasks efficiently.</p>
+                        <div class="tags">
+                            <span>JavaScript</span>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p>This very website! Built with modern web technologies.</p>
+                        <div class="tags">
+                            <span>HTML/CSS</span>
+                            <span>Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-text">Have a project in mind or just want to say hi? Feel free to reach out!</p>
+            <div class="contact-buttons">
+                <a href="https://www.facebook.com" target="_blank" class="btn-social btn-facebook">
+                    <i class="fab fa-facebook-f"></i> Facebook
+                </a>
+                <a href="https://www.instagram.com/antarikshbhusal" target="_blank" class="btn-social btn-instagram">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+                <a href="https://github.com/thecoder43" target="_blank" class="btn-social btn-github">
+                    <i class="fab fa-github"></i> @thecoder43
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Antariskh Bhusal. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
